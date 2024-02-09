@@ -1,0 +1,100 @@
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0) ; 
+  } 
+  li{
+    float: left;
+  }
+  li a{
+    display: block;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size:25px;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-family:"Roboto", "Arial", sans-serif;
+
+  }
+  li a:hover:not(.active){
+     
+     border-bottom: 1px solid red; 
+  } 
+
+  body{
+    background-color: black;
+    color:white;
+    font-family: Comic Sans MS;
+}
+
+#crewmate{
+    display: block; 
+    width: 350px;
+    height: 100px;
+    margin: auto;
+}
+
+#scientist{
+    width: 200px;
+    height: 100px;
+}
+
+#nav{
+    display: block; 
+    width: 150px; 
+    height: 100px; 
+    margin: auto;
+}
+
+#ghosts{
+    width: 100px; 
+    height: 100px;   
+}
+
+img.rot {
+  animation: 1s linear 0s normal none infinite running rot;
+  -webkit-animation: 1s linear 0s normal none infinite running rot;
+  width: 100px;
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+  <meta charset="utf-8">
+    img.rot {
+      animation: 100s ease-in 10s normal none infinite running rot;
+      -webkit-animation: 80s linear 80s normal none infinite running rot;
+      animation-timing-function: steps(8, end);
+      width: 100px;
+    }
+    @keyframes rot {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    @-webkit-keyframes rot {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }

@@ -1,0 +1,75 @@
+
+
+
+
+.topnav li {
+    float: left;
+    display: inline;
+    
+  }
+  .toc li{
+    padding-left: 2rem; 
+     background-image:url( https://uploads.scratch.mit.edu/get_image/gallery/22400440_170x100.png) ;   
+background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+  }
+  .topnav  a {
+    display: block;
+    padding: 8px;
+    background-color: #000000;
+  }
+  .topnav ul{
+    background-color: #000000;
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+  }
+  .topnav li a:hover {
+    background-color: rgb(165, 228, 20);
+  }
+  .topnav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+
+p{
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;';
+}
+h2{
+  font-size: 24pt;
+  text-align: center; 
+  font-family: 'Press Start 2P';
+}
+
+
+.toc{
+  background-color: #0d8330;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 26px;
+}
+.toc li a:hover{background-color: greenyellow;}
+.na{
+  background-color: greenyellow;
+    height: 520px;
+}
+img{
+  
+  float: right;
+  margin: 7px 0 7px 7px;
+}
+.facr{
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

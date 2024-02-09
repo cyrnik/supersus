@@ -1,0 +1,134 @@
+body{
+  width: 98%;
+  align-items: center;
+  margin: 1%;
+}
+
+.toctext{
+  font-family: 'Press Start 2P';
+}
+
+.topnav li {
+    float: left;
+    display: inline;
+    
+  }
+  .toc li{
+    padding-left: 2rem; 
+     background-image:url( https://uploads.scratch.mit.edu/get_image/gallery/22400440_170x100.png) ;   
+background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+  }
+  .topnav  a {
+    display: block;
+    padding: 8px;
+    background-color: #000000;
+  }
+  .topnav ul{
+    background-color: #000000;
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+  }
+  .topnav li a:hover {
+    background-color: rgb(165, 228, 20);
+  }
+  .topnav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+
+p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+  font-size: 24pt;
+  text-align: center; 
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.toc{
+  background-color: #0d8330;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 26px;
+}
+.toc li a:hover{background-color: greenyellow;}
+#head{
+  font-size: 24px;
+  font-family: 'Press Start 2P';
+  color:greenyellow
+}
+#pic1{float: left;}
+#pic2{float: right;}
+#text1{
+  margin-left: 250px;
+}
+#text2{
+  margin-right: 180px;
+}
+#text3{
+  margin-left: 170px;
+}
+.title1{
+  height: 260px;
+  background-color: #0d8330;
+}
+.title1:hover{
+  background-color: greenyellow;  
+}
+
+.title2{
+  height: 190px;
+  background-color: #0d8330;
+}
+.title2:hover{
+  background-color: greenyellow;  
+}
+
+.title3{
+  height: 170px;
+  background-color: #0d8330;
+}
+.title3:hover{
+  background-color: greenyellow;  
+}
+
+.title5{
+  height: 185px;
+  background-color: #0d8330;
+}
+#text5{
+  margin-left: 185px;
+}
+.title5:hover{
+  background-color: greenyellow;
+}
+#tit1{
+  text-align: left;
+  font-family: 'Press Start 2P';
+}
+#tit2{
+  text-align: right;
+}
+.rope2{
+  height:260px;
+  background-color: #0d8330;
+}
+.rope2:hover{
+  background-color: greenyellow;
+}
+@media(prefers-reduced-motion:no-preference){:root{
+  scroll-behavior: smooth;
+}}

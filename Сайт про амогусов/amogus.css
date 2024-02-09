@@ -1,0 +1,125 @@
+.sticky{
+  position:-webkit-sticky;
+  position: sticky;
+  top:0;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0) ; 
+  } 
+  li{
+    float: left;
+  }
+  li a{
+    display: block;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size:25px;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-family:"Roboto", "Arial", sans-serif;
+
+  }
+  li a:hover:not(.active){
+     
+     border-bottom: 1px solid red; 
+  } 
+ 
+.cont{
+  display:flex;
+  height: 90vh;
+  background-attachment: fixed;
+  background-image:url(https://4kwallpapers.com/images/wallpapers/among-us-ios-games-android-games-pc-games-2880x1800-3970.jpg);
+  background-position: center;
+  background-size: cover;
+  color:var(--color)
+}
+
+.nav{
+flex-direction: row;
+flex-wrap: wrap;
+background-color: black;
+}
+
+body{
+  background-color: black;
+}
+
+p{
+color:aliceblue;
+font-size: large;
+}
+
+#kartinki{
+  display: block; 
+  width: 150px; 
+  height: 100px; 
+  margin: auto;
+}
+#zag{
+  font-size: x-large;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+#text{
+ font-family: initial;;
+}
+
+#letit{
+  align:left;
+  width: 100%; 
+  height: 10%;
+}
+
+img.rot {
+  animation: 1s linear 0s normal none infinite running rot;
+  -webkit-animation: 1s linear 0s normal none infinite running rot;
+  width: 100px;
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+  <meta charset="utf-8">
+    img.rot {
+      animation: 100s ease-in 10s normal none infinite running rot;
+      -webkit-animation: 80s linear 80s normal none infinite running rot;
+      animation-timing-function: steps(8, end);
+      width: 100px;
+    }
+    @keyframes rot {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    @-webkit-keyframes rot {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  
+
+
